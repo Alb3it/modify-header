@@ -1,6 +1,6 @@
 {
   "appName": {
-    "message": "Modify Header",
+    "message": "Custom Modify Headers",
     "description": "Extension name shown in the browser toolbar and Chrome Web Store."
   },
   "appDescription": {
