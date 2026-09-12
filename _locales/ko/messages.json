@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Modify Header",
+    "description": "Extension name shown in the browser toolbar and Chrome Web Store."
+  },
+  "appDescription": {
+    "message": "URL 패턴별로 요청/응답 헤더를 수정합니다. 툴바 팝업에서 모든 설정을 관리할 수 있습니다.",
+    "description": "Extension description shown in the Chrome Web Store."
+  }
+}

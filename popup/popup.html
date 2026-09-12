@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Modify Header</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <label class="switch" id="globalToggleLabel">
+        <input type="checkbox" id="globalToggle" />
+        <span class="slider"></span>
+      </label>
+      <span class="title">Modify Header</span>
+      <select id="langSelect" class="lang-select"></select>
+      <button id="selectAllBtn" class="icon-btn text-btn"></button>
+      <button id="deselectAllBtn" class="icon-btn text-btn"></button>
+      <button id="addBtn" class="icon-btn primary">+</button>
+    </header>
+
+    <div class="row-grid col-headers">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span id="colMemo"></span>
+      <span id="colHeaderName"></span>
+      <span id="colValue"></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <main id="ruleList" class="rule-list"></main>
+    <p id="emptyState" class="empty-state"></p>
+
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Modify Header",
+    "description": "Extension name shown in the browser toolbar and Chrome Web Store."
+  },
+  "appDescription": {
+    "message": "Modify request/response headers per URL pattern, managed entirely from the toolbar popup.",
+    "description": "Extension description shown in the Chrome Web Store."
+  }
+}
