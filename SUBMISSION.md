@@ -19,14 +19,14 @@
 ## 남은 작업 (제출 전)
 
 ### 1. 개발자 계정
-- [ ] Chrome Web Store Developer Dashboard 가입 여부 확인
-- [ ] 미가입 시 1회 $5 등록비 결제 (https://chrome.google.com/webstore/devconsole)
+- [x] Chrome Web Store Developer Dashboard 가입 + $5 등록비 결제 완료
+- [x] 게시자 계정 유형: **비판매자(Non-trader)**로 등록 (무료/개인 프로젝트, 향후 유료화 시 재검토)
 
 ### 2. 프라이버시 정책
 `host_permissions: ["<all_urls>"]`를 쓰기 때문에 프라이버시 정책 URL이 요구될 가능성이 높음.
-- [ ] "이 확장 프로그램은 사용자 데이터를 수집하거나 외부로 전송하지 않으며, 모든 설정은 브라우저 로컬 저장소에만 저장된다"는 내용의 정책 페이지 작성
-- [ ] 호스팅 (GitHub Pages / Gist raw / 간단한 정적 페이지 중 택1)
-- [ ] Developer Dashboard의 "Privacy practices" 탭에 URL 등록 + 데이터 사용 설문 응답 (수집 데이터 없음으로 체크)
+- [x] "이 확장 프로그램은 사용자 데이터를 수집하거나 외부로 전송하지 않으며, 모든 설정은 브라우저 로컬 저장소에만 저장된다"는 내용의 정책 페이지 작성 (`docs/index.html`, EN+KO)
+- [x] 호스팅: GitHub Pages — https://alb3it.github.io/modify-header/ (저장소 public 전환 완료)
+- [ ] Developer Dashboard의 "Privacy practices" 탭에 위 URL 등록 + 데이터 사용 설문 응답 (수집 데이터 없음으로 체크)
 
 ### 3. 스토어 리스팅 자료
 - [ ] 스크린샷 최소 1장, 권장 1280x800 (실제 계정/토큰 값이 아닌 예시 데이터로 캡처할 것)
@@ -63,9 +63,9 @@
 - 흔한 반려 사유: 권한 근거 불충분, 프라이버시 정책 누락, 이름이 너무 일반적이거나 상표권 문제, 스크린샷/설명 불일치
 
 ## 열린 결정 사항 (사용자가 정할 것)
-- **확장 프로그램 이름**: 현재 "Modify Header"는 매우 일반적인 이름 — 스토어 등록 전에 더 구체적인 이름으로 바꿀지 결정 필요
-- **프라이버시 정책 호스팅 위치**: 어디에 올릴지 (GitHub Pages 등)
-- **스토어 카테고리** 및 리스팅 문구 톤
+- [x] **확장 프로그램 이름**: "Custom Modify Headers"로 확정, `_locales/en`, `_locales/ko`에 반영 완료
+- [x] **프라이버시 정책 호스팅 위치**: GitHub Pages 확정 및 배포 완료
+- **스토어 카테고리** 및 리스팅 문구 톤 — 아직 미정
 
 ## 참고 (선택 사항, 이번 목표엔 불필요)
 - Edge Add-ons 스토어는 별도 제출 프로세스 (Partner Center, 별도 심사) — Chrome 심사만 목표라면 무시해도 됨. 개인 사용은 압축해제된 확장 로드로 계속 가능.
